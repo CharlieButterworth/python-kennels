@@ -10,3 +10,7 @@ LOCATIONS = [
         "address": "209 Emory Drive"
     }
 ]
+
+
+def get_all_locations():
+    return LOCATIONS
