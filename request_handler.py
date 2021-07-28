@@ -108,6 +108,7 @@ class HandleRequests(BaseHTTPRequestHandler):
         if resource == "animals":
             delete_animal(id)
 
+    # Delete employees
         if resource == "employee":
             delete_employee(id)
 
