@@ -112,6 +112,7 @@ class HandleRequests(BaseHTTPRequestHandler):
         if resource == "employee":
             delete_employee(id)
 
+    # Delete locations
         if resource == "location":
             delete_location(id)
 
